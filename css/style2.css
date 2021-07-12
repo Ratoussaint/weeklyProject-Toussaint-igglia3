@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(52, 53, 63);;
+    color: whitesmoke;font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif;
+    
+}
+header{
+    background: rgb(48, 49, 58);
+    height: 550px;
+}
+
+/* navigation */
+.navbar a{
+    color: whitesmoke;
+}
+.navbar-brand{
+    /* background-color: seagreen; */
+    width: 20%;
+    text-align: center;
+}
+.mineNav{
+  justify-content: space-around;
+
+}
+.nav-item{
+    margin-left: 30px;
+}
+#name{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.active a:nth-child(1){
+    color:tomato
+}
+
+
+/* title */
+
+.icone{
+    font-size: 25px;
+    cursor: pointer;
+    /* background-color: tomato; */
+
+}
+.icone .fa:hover{
+    background-color: tomato;
+    transition: 0.5s;
+}
+.icone .fa{
+    padding: 10px;
+    border: 1px solid  tomato;
+    border-radius: 50%;
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 400px;
+}
+.title h2{
+    font-weight: bold;
+}
+.item{
+    margin-top: 20px;
+}
+
+
+.button .btn-outline-secondary{
+    border: 1px solid  tomato;
+}
+
+.button .btn-outline-secondary:hover{
+    background-color: tomato;
+}
+.fa-play{
+    background-color: tomato;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+/* section competence */
+section{
+    background-color: rgb(52, 53, 63);;
+}
+
+
+/* tire */
+hr.divider {
+    max-width: 3.25rem;
+    border-width: 2px;
+	border: 1px solid tomato;
+}
+
+.my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.services{
+    text-align: center;
+
+}
+/* .skill{
+    background-color: red;
+} */
+.body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item{
+    width:350px;
+    margin-left: 20px;
+	background-color:  rgb(45, 47, 58);
+}
+
+.list-item p:nth-child(1){
+	font-weight: bold;
+	font-size: 20px;
+}
+.list-item .fa{
+	color: tomato;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.section2{
+    background: rgb(48, 49, 58);
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    margin-left: 20px;
+
+}
+.image img{
+    border: none;
+    border-radius: 1%;
+}
+.component{
+    margin-left: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-flow: row  wrap;
+}
+/* .info-contact{
+    margin-left: 20px;
+} */
+
+/* .info-facebook{
+    margin-left: 20px;
+} */
+
+.contact p:nth-child(1){
+    padding: 0;
+    margin: 0;
+	font-weight: bold;
+    font-size: 15px;
+	color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px)
+{
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image img{
+       width: 100%;
+    }
+    .component{
+        margin-top: 20px;
+    }
+    header{
+        height: auto;
+    }
+    .list-item{
+    width: auto;
+    flex-wrap: row wrap;
+    margin-top: 20px;
+    }
+
+}
+
